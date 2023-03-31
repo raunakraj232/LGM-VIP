@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Roboto-slab", sans-serif;
+  position: relative;
+  /* margin: auto;   */
+  left: 50;
+  right: 0;
+  top: 100px;
+  padding: 55px 50px;
+  background: gray;
+  border-radius: 12px;
+  font-size: 25;
+  height: fit-content;
+  width: fit-content;
+}
+body {
+  background: rgb(11, 2, 2);
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+
+  height: 100%;
+}
+#head {
+  color: yellowgreen;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.space {
+  display: flex;
+}
+#x {
+  margin-left: 4.2rem;
+}
+#y {
+  margin-left: 4.3rem;
+}
+#z {
+  margin-left: 3rem;
+}
+#x1 {
+  margin-left: 1rem;
+}
+input[type="text"] {
+  border-radius: 10px;
+  border-color: black;
+  padding-left: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-top: 1px;
+  margin-bottom: 2px;
+  margin-right: 6px;
+}
+
+img {
+  border-radius: 15px;
+}
+#chkbox {
+  margin-left: 5rem;
+}
+#G {
+  margin-left: 3.4rem;
+}
+#res {
+  font-size: large;
+  background: rgb(226, 90, 90);
+  border-radius: 3px;
+}
+#chkbo {
+  margin-left: 0.5rem;
+}
+#subbtn {
+  background-color: rgba(23, 23, 156, 0.265);
+  border-radius: 5%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#resbtn {
+  background-color: rgba(209, 67, 67, 0.647);
+  border-radius: 5%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.container1 {
+  width: 0.5rem;
+  height: 32rem;
+  background-color: gray;
+  margin-top: 6.2rem;
+}
+.container-main {
+  display: flex;
+  justify-content: space-around;
+}
+.container2 {
+  font-family: "Roboto-slab", sans-serif;
+  position: relative;
+  /* margin: auto;   */
+  top: 100px;
+  right: 45px;
+  padding: 45px 22px;
+  background: gray;
+  border-radius: 12px;
+  font-size: 25;
+  height: 507px;
+  width: 550px;
+  overflow: scroll;
+}
+#G {
+  display: flex;
+  align-items: self-start;
+}
+
+table,
+th,
+tr,
+td {
+  border: 2px dotted black;
+  border-collapse: collapse;
+  padding: 1.5rem;
+}
+#td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 10px;
+  border-style: none;
+}
+.select_option {
+  position: relative;
+}

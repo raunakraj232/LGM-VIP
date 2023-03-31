@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="head">
+      <h1>Simple Registration Form</h1>
+    </div>
+
+    <div class="container-main">
+      <div class="container">
+        <form>
+          <div class="space">
+            <label for="x">Name :</label>
+            <input type="text" placeholder="eg: Jhon Doe" id="x" size="30" />
+          </div>
+          <br />
+
+          <div class="space">
+            <label for="y">Email : </label>
+            <input
+              type="text"
+              placeholder="eg: jhon_doe@gmail.com "
+              id="y"
+              size="30"
+            />
+          </div>
+          <br />
+
+          <div class="space">
+            <label for="z">Website:</label>
+            <input
+              type="text"
+              placeholder="eg: www.jhon.com"
+              id="z"
+              size="30"
+            />
+          </div>
+          <br />
+
+          <div class="space">
+            <label for="x1">Image link :</label>
+            <input
+              type="text"
+              placeholder="eg: www.google.com/myimage.jpg"
+              id="x1"
+              size="30"
+            />
+          </div>
+          <br />
+
+          <div class="space">
+            <label for="G">Gender: </label>
+            <input type="radio" name="gender" id="G" /><label>Male </label
+            ><br />
+            <input type="radio" name="gender" id="G" /><label>Female</label>
+          </div>
+          <br />
+
+          <div class="space">
+            <label for="chkbox">Skills: </label><br />
+            <input type="checkbox" id="chkbox" />Html
+            <input type="checkbox" id="chkbo" />Css
+            <input type="checkbox" id="chkbo" />Javascript<br /><br />
+          </div>
+
+          <input type="button" name="reg" value="Enroll student" id="subbtn" />
+          <input type="reset" name="cls" value="clear" id="resbtn" />
+        </form>
+      </div>
+      <div class="container1"></div>
+
+      <div class="container2">
+        <table id="tbl" width="100%">
+          <tr>
+            <th>Select</th>
+            <th>Description</th>
+            <th>Image</th>
+          </tr>
+
+          <!-- <tr class="select_option">
+            <td id="td">
+              <input type="checkbox" />
+            </td>
+            <td>
+              <p id="nam">John Doe</p>
+              <br />
+
+              <p id="gen">Male,</p>
+              <br />
+              <p id="email">John.doe@gmail.com</p>
+              <br />
+              <p id="web">www.john.com</p>
+              <br />
+              <p id="course">Java ,Html</p>
+              <br />
+            </td>
+            <td>
+              <img
+                src="https://helostatus.com/wp-content/uploads/2021/08/profile-pictures-for-WhatsApp.jpg"
+                alt=" profile-image"
+                width="150px"
+                height="150px"
+                id="image"
+              />
+            </td>
+          </tr> -->
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
